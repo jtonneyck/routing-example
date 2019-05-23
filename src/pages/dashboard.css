@@ -1,0 +1,26 @@
+.dashboard {
+    display: flex;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    background-color: grey;
+    align-items: center;
+    height: 85vh;
+    justify-content: center;
+}
+
+.side-bar a {
+    color: white;
+    font-family: "Helvetica";
+    text-decoration: none;
+}
+
+.dashboard-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
