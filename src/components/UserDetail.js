@@ -1,10 +1,10 @@
 import React from 'react'
 
 export default function UserDetail({location}) {
-    debugger
     return (
         <div>
-            <h1>{location.query.firstname} {location.query.lastname}</h1>    
+            <h1>This is a detailed overview of the student</h1>    
+            <p>{location.query.firstname} {location.query.lastname}</p>    
             <p>{location.query.email}</p>       
         </div>
     )
